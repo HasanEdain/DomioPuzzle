@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF055A372BABBB7C0067D24C /* DominoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF055A362BABBB7C0067D24C /* DominoView.swift */; };
+		BF055A3B2BABBC190067D24C /* GamePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF055A3A2BABBC190067D24C /* GamePlayView.swift */; };
+		BF055A3D2BABBC9D0067D24C /* VerticalNineDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF055A3C2BABBC9D0067D24C /* VerticalNineDotView.swift */; };
+		BF055A3F2BABBCC50067D24C /* HorizontalNineDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF055A3E2BABBCC50067D24C /* HorizontalNineDotView.swift */; };
+		BF055A422BABBD680067D24C /* DominoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF055A412BABBD680067D24C /* DominoData.swift */; };
+		BF055A442BABBE070067D24C /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF055A432BABBE070067D24C /* DotView.swift */; };
+		BF055A462BABBE7A0067D24C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF055A452BABBE7A0067D24C /* TestView.swift */; };
+		BFA3E2422BA3F4DF00800252 /* DominosPuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3E2412BA3F4DF00800252 /* DominosPuzzleApp.swift */; };
+		BFA3E2482BA3F4E100800252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA3E2472BA3F4E100800252 /* Assets.xcassets */; };
+		BFA3E24C2BA3F4E100800252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA3E24B2BA3F4E100800252 /* Preview Assets.xcassets */; };
+		BFA3E2562BA3F4E100800252 /* DominosPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3E2552BA3F4E100800252 /* DominosPuzzleTests.swift */; };
+		BFA3E2602BA3F4E100800252 /* DominosPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3E25F2BA3F4E100800252 /* DominosPuzzleUITests.swift */; };
+		BFA3E2622BA3F4E100800252 /* DominosPuzzleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA3E2612BA3F4E100800252 /* DominosPuzzleUITestsLaunchTests.swift */; };
+		FE6BB8F02C9776BB0067B34A /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB8EF2C9776BB0067B34A /* GameViewModel.swift */; };
+		FE6BB8F32C97770D0067B34A /* DifficultySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB8F22C97770D0067B34A /* DifficultySettings.swift */; };
+		FE6BB8F52C97779F0067B34A /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB8F42C97779F0067B34A /* Difficulty.swift */; };
+		FE6BB8F72C9778100067B34A /* Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB8F62C9778100067B34A /* Axis.swift */; };
+		FE6BB8F92C97789D0067B34A /* DominoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB8F82C97789D0067B34A /* DominoViewModel.swift */; };
+		FE6BB8FB2C9779200067B34A /* NineDotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB8FA2C9779200067B34A /* NineDotViewModel.swift */; };
+		FE6BB8FD2C9779640067B34A /* DotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6BB8FC2C9779640067B34A /* DotViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA3E2522BA3F4E100800252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA3E2362BA3F4DF00800252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA3E23D2BA3F4DF00800252;
+			remoteInfo = DominosPuzzle;
+		};
+		BFA3E25C2BA3F4E100800252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA3E2362BA3F4DF00800252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA3E23D2BA3F4DF00800252;
+			remoteInfo = DominosPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF055A362BABBB7C0067D24C /* DominoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoView.swift; sourceTree = "<group>"; };
+		BF055A3A2BABBC190067D24C /* GamePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayView.swift; sourceTree = "<group>"; };
+		BF055A3C2BABBC9D0067D24C /* VerticalNineDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalNineDotView.swift; sourceTree = "<group>"; };
+		BF055A3E2BABBCC50067D24C /* HorizontalNineDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalNineDotView.swift; sourceTree = "<group>"; };
+		BF055A412BABBD680067D24C /* DominoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoData.swift; sourceTree = "<group>"; };
+		BF055A432BABBE070067D24C /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		BF055A452BABBE7A0067D24C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		BFA3E23E2BA3F4DF00800252 /* DominosPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DominosPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA3E2412BA3F4DF00800252 /* DominosPuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominosPuzzleApp.swift; sourceTree = "<group>"; };
+		BFA3E2472BA3F4E100800252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA3E2492BA3F4E100800252 /* DominosPuzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DominosPuzzle.entitlements; sourceTree = "<group>"; };
+		BFA3E24B2BA3F4E100800252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA3E2512BA3F4E100800252 /* DominosPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominosPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA3E2552BA3F4E100800252 /* DominosPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominosPuzzleTests.swift; sourceTree = "<group>"; };
+		BFA3E25B2BA3F4E100800252 /* DominosPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominosPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA3E25F2BA3F4E100800252 /* DominosPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominosPuzzleUITests.swift; sourceTree = "<group>"; };
+		BFA3E2612BA3F4E100800252 /* DominosPuzzleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominosPuzzleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE6BB8EF2C9776BB0067B34A /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		FE6BB8F22C97770D0067B34A /* DifficultySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultySettings.swift; sourceTree = "<group>"; };
+		FE6BB8F42C97779F0067B34A /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
+		FE6BB8F62C9778100067B34A /* Axis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Axis.swift; sourceTree = "<group>"; };
+		FE6BB8F82C97789D0067B34A /* DominoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoViewModel.swift; sourceTree = "<group>"; };
+		FE6BB8FA2C9779200067B34A /* NineDotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineDotViewModel.swift; sourceTree = "<group>"; };
+		FE6BB8FC2C9779640067B34A /* DotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA3E23B2BA3F4DF00800252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA3E24E2BA3F4E100800252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA3E2582BA3F4E100800252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF055A402BABBD0F0067D24C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF055A3A2BABBC190067D24C /* GamePlayView.swift */,
+				BF055A362BABBB7C0067D24C /* DominoView.swift */,
+				BF055A3E2BABBCC50067D24C /* HorizontalNineDotView.swift */,
+				BF055A3C2BABBC9D0067D24C /* VerticalNineDotView.swift */,
+				BF055A432BABBE070067D24C /* DotView.swift */,
+				BF055A452BABBE7A0067D24C /* TestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFA3E2352BA3F4DF00800252 = {
+			isa = PBXGroup;
+			children = (
+				BFA3E2402BA3F4DF00800252 /* DominosPuzzle */,
+				BFA3E2542BA3F4E100800252 /* DominosPuzzleTests */,
+				BFA3E25E2BA3F4E100800252 /* DominosPuzzleUITests */,
+				BFA3E23F2BA3F4DF00800252 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA3E23F2BA3F4DF00800252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3E23E2BA3F4DF00800252 /* DominosPuzzle.app */,
+				BFA3E2512BA3F4E100800252 /* DominosPuzzleTests.xctest */,
+				BFA3E25B2BA3F4E100800252 /* DominosPuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA3E2402BA3F4DF00800252 /* DominosPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB8F12C9776F80067B34A /* Data */,
+				FE6BB8EE2C9776A20067B34A /* ViewModel */,
+				BF055A412BABBD680067D24C /* DominoData.swift */,
+				BFA3E2412BA3F4DF00800252 /* DominosPuzzleApp.swift */,
+				BFA3E2472BA3F4E100800252 /* Assets.xcassets */,
+				BFA3E2492BA3F4E100800252 /* DominosPuzzle.entitlements */,
+				BFA3E24A2BA3F4E100800252 /* Preview Content */,
+				BF055A402BABBD0F0067D24C /* Views */,
+			);
+			path = DominosPuzzle;
+			sourceTree = "<group>";
+		};
+		BFA3E24A2BA3F4E100800252 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3E24B2BA3F4E100800252 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFA3E2542BA3F4E100800252 /* DominosPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3E2552BA3F4E100800252 /* DominosPuzzleTests.swift */,
+			);
+			path = DominosPuzzleTests;
+			sourceTree = "<group>";
+		};
+		BFA3E25E2BA3F4E100800252 /* DominosPuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3E25F2BA3F4E100800252 /* DominosPuzzleUITests.swift */,
+				BFA3E2612BA3F4E100800252 /* DominosPuzzleUITestsLaunchTests.swift */,
+			);
+			path = DominosPuzzleUITests;
+			sourceTree = "<group>";
+		};
+		FE6BB8EE2C9776A20067B34A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB8EF2C9776BB0067B34A /* GameViewModel.swift */,
+				FE6BB8F82C97789D0067B34A /* DominoViewModel.swift */,
+				FE6BB8FA2C9779200067B34A /* NineDotViewModel.swift */,
+				FE6BB8FC2C9779640067B34A /* DotViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE6BB8F12C9776F80067B34A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FE6BB8F22C97770D0067B34A /* DifficultySettings.swift */,
+				FE6BB8F42C97779F0067B34A /* Difficulty.swift */,
+				FE6BB8F62C9778100067B34A /* Axis.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA3E23D2BA3F4DF00800252 /* DominosPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA3E2652BA3F4E100800252 /* Build configuration list for PBXNativeTarget "DominosPuzzle" */;
+			buildPhases = (
+				BFA3E23A2BA3F4DF00800252 /* Sources */,
+				BFA3E23B2BA3F4DF00800252 /* Frameworks */,
+				BFA3E23C2BA3F4DF00800252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DominosPuzzle;
+			productName = DominosPuzzle;
+			productReference = BFA3E23E2BA3F4DF00800252 /* DominosPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA3E2502BA3F4E100800252 /* DominosPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA3E2682BA3F4E100800252 /* Build configuration list for PBXNativeTarget "DominosPuzzleTests" */;
+			buildPhases = (
+				BFA3E24D2BA3F4E100800252 /* Sources */,
+				BFA3E24E2BA3F4E100800252 /* Frameworks */,
+				BFA3E24F2BA3F4E100800252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA3E2532BA3F4E100800252 /* PBXTargetDependency */,
+			);
+			name = DominosPuzzleTests;
+			productName = DominosPuzzleTests;
+			productReference = BFA3E2512BA3F4E100800252 /* DominosPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFA3E25A2BA3F4E100800252 /* DominosPuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA3E26B2BA3F4E100800252 /* Build configuration list for PBXNativeTarget "DominosPuzzleUITests" */;
+			buildPhases = (
+				BFA3E2572BA3F4E100800252 /* Sources */,
+				BFA3E2582BA3F4E100800252 /* Frameworks */,
+				BFA3E2592BA3F4E100800252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA3E25D2BA3F4E100800252 /* PBXTargetDependency */,
+			);
+			name = DominosPuzzleUITests;
+			productName = DominosPuzzleUITests;
+			productReference = BFA3E25B2BA3F4E100800252 /* DominosPuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA3E2362BA3F4DF00800252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BFA3E23D2BA3F4DF00800252 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BFA3E2502BA3F4E100800252 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BFA3E23D2BA3F4DF00800252;
+					};
+					BFA3E25A2BA3F4E100800252 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BFA3E23D2BA3F4DF00800252;
+					};
+				};
+			};
+			buildConfigurationList = BFA3E2392BA3F4DF00800252 /* Build configuration list for PBXProject "DominosPuzzle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA3E2352BA3F4DF00800252;
+			productRefGroup = BFA3E23F2BA3F4DF00800252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA3E23D2BA3F4DF00800252 /* DominosPuzzle */,
+				BFA3E2502BA3F4E100800252 /* DominosPuzzleTests */,
+				BFA3E25A2BA3F4E100800252 /* DominosPuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA3E23C2BA3F4DF00800252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA3E24C2BA3F4E100800252 /* Preview Assets.xcassets in Resources */,
+				BFA3E2482BA3F4E100800252 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA3E24F2BA3F4E100800252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA3E2592BA3F4E100800252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA3E23A2BA3F4DF00800252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6BB8FD2C9779640067B34A /* DotViewModel.swift in Sources */,
+				FE6BB8F02C9776BB0067B34A /* GameViewModel.swift in Sources */,
+				BF055A442BABBE070067D24C /* DotView.swift in Sources */,
+				BF055A372BABBB7C0067D24C /* DominoView.swift in Sources */,
+				BF055A422BABBD680067D24C /* DominoData.swift in Sources */,
+				FE6BB8F52C97779F0067B34A /* Difficulty.swift in Sources */,
+				BF055A3F2BABBCC50067D24C /* HorizontalNineDotView.swift in Sources */,
+				FE6BB8F32C97770D0067B34A /* DifficultySettings.swift in Sources */,
+				FE6BB8F92C97789D0067B34A /* DominoViewModel.swift in Sources */,
+				BF055A3B2BABBC190067D24C /* GamePlayView.swift in Sources */,
+				BFA3E2422BA3F4DF00800252 /* DominosPuzzleApp.swift in Sources */,
+				FE6BB8FB2C9779200067B34A /* NineDotViewModel.swift in Sources */,
+				BF055A462BABBE7A0067D24C /* TestView.swift in Sources */,
+				FE6BB8F72C9778100067B34A /* Axis.swift in Sources */,
+				BF055A3D2BABBC9D0067D24C /* VerticalNineDotView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA3E24D2BA3F4E100800252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA3E2562BA3F4E100800252 /* DominosPuzzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA3E2572BA3F4E100800252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA3E2622BA3F4E100800252 /* DominosPuzzleUITestsLaunchTests.swift in Sources */,
+				BFA3E2602BA3F4E100800252 /* DominosPuzzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA3E2532BA3F4E100800252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA3E23D2BA3F4DF00800252 /* DominosPuzzle */;
+			targetProxy = BFA3E2522BA3F4E100800252 /* PBXContainerItemProxy */;
+		};
+		BFA3E25D2BA3F4E100800252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA3E23D2BA3F4DF00800252 /* DominosPuzzle */;
+			targetProxy = BFA3E25C2BA3F4E100800252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFA3E2632BA3F4E100800252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFA3E2642BA3F4E100800252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BFA3E2662BA3F4E100800252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DominosPuzzle/DominosPuzzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DominosPuzzle/Preview Content\"";
+				DEVELOPMENT_TEAM = RUHKZ8393A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hydesapps.DominosPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA3E2672BA3F4E100800252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DominosPuzzle/DominosPuzzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DominosPuzzle/Preview Content\"";
+				DEVELOPMENT_TEAM = RUHKZ8393A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hydesapps.DominosPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFA3E2692BA3F4E100800252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RUHKZ8393A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hydesapps.DominosPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DominosPuzzle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DominosPuzzle";
+			};
+			name = Debug;
+		};
+		BFA3E26A2BA3F4E100800252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RUHKZ8393A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hydesapps.DominosPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DominosPuzzle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DominosPuzzle";
+			};
+			name = Release;
+		};
+		BFA3E26C2BA3F4E100800252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RUHKZ8393A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hydesapps.DominosPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DominosPuzzle;
+			};
+			name = Debug;
+		};
+		BFA3E26D2BA3F4E100800252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RUHKZ8393A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hydesapps.DominosPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DominosPuzzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA3E2392BA3F4DF00800252 /* Build configuration list for PBXProject "DominosPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA3E2632BA3F4E100800252 /* Debug */,
+				BFA3E2642BA3F4E100800252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA3E2652BA3F4E100800252 /* Build configuration list for PBXNativeTarget "DominosPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA3E2662BA3F4E100800252 /* Debug */,
+				BFA3E2672BA3F4E100800252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA3E2682BA3F4E100800252 /* Build configuration list for PBXNativeTarget "DominosPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA3E2692BA3F4E100800252 /* Debug */,
+				BFA3E26A2BA3F4E100800252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA3E26B2BA3F4E100800252 /* Build configuration list for PBXNativeTarget "DominosPuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA3E26C2BA3F4E100800252 /* Debug */,
+				BFA3E26D2BA3F4E100800252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA3E2362BA3F4DF00800252 /* Project object */;
+}
